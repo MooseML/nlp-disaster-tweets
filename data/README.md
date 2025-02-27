@@ -16,26 +16,26 @@ Since the dataset is too large for direct inclusion in this repository, you will
 
 #### **Option 2: Use the Kaggle API (Recommended)**
 1. Ensure you have the Kaggle API installed and authenticated:
-   \`\`\`bash
+   ```
    pip install kaggle
    kaggle competitions download -c nlp-getting-started
-   \`\`\`
+   ```
 2. Alternatively, run the provided script:
-   \`\`\`bash
+   ```
    python scripts/data_download.py
-   \`\`\`
+   ```
    This will automatically download and extract the dataset into the **\`data/\`** directory.
 
 ---
 
 ### Expected Directory Structure
 After downloading, the folder should be structured as follows:
-\`\`\`
+```
 data/
 ├── train.csv             # Training data with labels
 ├── test.csv              # Test data for predictions
 ├── sample_submission.csv # Sample submission file for Kaggle
-\`\`\`
+```
 
 ---
 
